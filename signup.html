@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/signup.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <header class="header">
+        <div id="logo">
+            <img src="images/logo_w.png" alt="" width="100%">
+        </div>
+        <div id="menu">
+            <ul>
+                <li id="out"><a href="signup.html">RIGISTER</a></li>
+                <li><a href="exam.html">EXAM</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="home.html">HOME</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="loginbox">
+        <!-- <img src="images/avatar.png" class="avatar"> -->
+        <h1>SIGNUP</h1>
+        <form>
+            <p>Frist Name</p>
+            <input type="text" id="fname" placeholder="Enter Frist Name">
+            <p>Last Name</p>
+            <input type="text" id="lname" placeholder="Enter Last Name">
+            <p>User Name</p>
+            <input type="text" id="username" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" id="password" placeholder="Password">
+            <p>RePassword</p>
+            <input type="password" id="RePassword" placeholder="RePassword">
+            <!-- <p>City</p> -->
+            <select name="" id="dropdownlist" required>
+                <option value="city"  disabled selected >City</option>
+
+                <option value="cairo">Cairo</option>
+                <option value="alex">Alexandria</option>
+                <option value="menofya">Menofya</option>
+            </select><br>
+            <textarea name="" id="address" cols="70" rows="3" placeholder="address"></textarea>
+            <input type="button" id="register" value="register">
+            <p>already have account ? <a href="login.html">sign in</a></p>
+        </form>
+    </div>
+
+    <script src="JS/signup.js"></script>
+</body>
+
+
+</html>

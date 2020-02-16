@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    padding-top: 20px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: rgba(38, 51, 145, 0.8);
+}
+
+#logo {
+    width: 10%;
+    float: left;
+    margin-left: 20%;
+    height: 60px;
+}
+
+#menu {
+    width: 50%;
+    float: left;
+    height: 60px;
+}
+
+#menu li {
+    float: right;
+    margin: 20px 40px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu li:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: orangered;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(slider-imgs/4.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    min-height: 900px;
+}
+
+.loginbox {
+    margin: 150px auto;
+    /* margin-top: 150px;
+    margin-bottom: 50px; */
+    width: 600px;
+    height: 840px;
+    background: #000;
+    color: #fff;
+    /* top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); */
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+/*.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}*/
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin-left: 20px;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.loginbox input[type="text"],
+input[type="password"] {
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 55%;
+    margin: 20px auto;
+    display: block;
+}
+
+.loginbox input[type="button"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover {
+    color: #ffc107;
+}
+
+#dropdownlist {
+    padding: 2px 20px 2px 5px;
+    margin: 0px 20px 20px;
+    text-align: center;
+    width: 150px;
+    height: 32px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+textarea {
+    width: 75%;
+    height: 80px;
+    margin: 0px 20px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-size: 17px;
+    padding: 5px 10px;
+}

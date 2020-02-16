@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(slider-imgs/4.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* height: 80px; */
+    /* position: relative; */
+    display: flex;
+    /* width: 100%; */
+    background-color: rgba(38, 51, 145, 0.8);
+}
+
+#logo {
+    width: 10%;
+    /* float: left; */
+    margin-left: 20%;
+    /* height: 60px; */
+}
+
+#menu {
+    /* margin-left: 200px; */
+    width: 50%;
+    /* float: left; */
+    /* height: 60px; */
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#menu li {
+    /* float: right; */
+    margin: 20px 20px 10px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu li:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+#menu a {
+    color: white;
+}
+
+#menu a:hover {
+    color: orangered;
+}
+
+#menu ul #out span {
+    color: white;
+    cursor: default;
+}
+
+#logoutBtn,
+#btnResult {
+    width: 100px;
+    height: 30px;
+    border-style: none;
+    background-color: white;
+    color: #181b31;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+#logoutBtn:hover,
+#btnResult:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#menu span {
+    display: inline-block;
+    width: 200px;
+    /* float: right; */
+    /* border: 1px solid; */
+    /* border-radius: 20px; */
+    /* padding: 10px 5px;
+    margin-top: 5px; */
+}
+
+.answ {
+    display: inline-block;
+    width: 400px;
+    padding: 8px;
+    margin: 10px;
+}
+
+#container {
+    width: 1200px;
+    margin: auto;
+}
+
+input {
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+#header {
+    height: 150px;
+}
+
+.main {
+    margin: auto;
+    width: 800px;
+    box-shadow: 0px 0px 5px 5px #0e0d0d00;
+    border-radius: 5px;
+    background-color: rgba(34, 33, 33, 0.95);
+    text-align: center;
+    padding: 30px;
+    color: #ccc;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#start {
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 25px;
+    background-color: #181b31;
+    color: #ccc;
+}
+
+#start:hover {
+    background-color: #ccc;
+    color: #181b31;
+    cursor: pointer;
+}
+
+#submit-exam,
+#clr {
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#submit-exam:hover,
+#clr:hover {
+    background-color: orangered;
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+.btn {
+    width: 1100px;
+    text-align: right;
+}
+
+.question {
+    padding-left: 20px;
+}
+
+#time {
+    width: 140px;
+    margin-left: 829px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin-bottom: 3px;
+    margin-top: 120px;
+    color: #ccc;
+    font-size: 15pt;
+    padding: 15px;
+    background-color: lightslategrey;
+    color: black;
+    font-weight: bold;
+}
+
+.qst-text {
+    margin-top: 15px;
+    display: inline-block;
+    width: 800px;
+    padding: 10px;
+}
+
+.question span {
+    display: inline-block;
+    width: 100px;
+    margin-right: 40px;
+    text-align: center;
+    float: right;
+    border: 1px solid coral;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin-top: 5px;
+}
+
+.question ul {
+    margin-left: 50px;
+}
+
+#exam {
+    box-shadow: 0px 0px 5px 5px #0e0d0d00;
+    border-radius: 5px;
+    background-color: rgba(34, 33, 33, 0.95);
+    /* text-align: center; */
+    /* padding: 30px; */
+    color: #ccc;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* 
+p {
+    width: 500px;
+} */
+
+#logout {
+    width: '80px';
+    height: '40px';
+    background-color: 'black';
+    font-size: '12pt';
+    border-style: 'none';
+    color: white;
+}
+
+
+/* #timer {
+    border: 1px solid red;
+    border-radius: 20px;
+} */
+
+.main p {
+    margin: 1em;
+}
